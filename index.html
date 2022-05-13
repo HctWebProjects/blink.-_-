@@ -1,0 +1,29 @@
+<!Doctype html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <title>It Blinked</title>
+  <style>
+    html,
+    body {
+      align-items: center;
+      background-color: black;
+      color: #4AF626;
+      display: flex;
+      font-family: "Courier New";
+      height: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+    .blink {
+      animation: blinker .850s linear infinite;
+    }
+    @keyframes blinker {
+      50% { opacity: 0; }
+	}
+  </style>
+</head>
+<body>
+    <h1>Ooh. This is<span class="blink">blinking^_~</span></h1>
+  </html>
